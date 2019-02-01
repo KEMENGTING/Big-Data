@@ -1,0 +1,322 @@
+--Genre "Book"
+
+SELECT avg(prime_genre),
+	   avg(size_bytes) AS `Average Size`, 
+	   avg(price) as `Average Price`, 
+	   avg(rating_count_tot) as `Average Rating Count`, 
+	   avg(rating_count_ver) as `Current Average Rating Count`, 
+	   avg(user_rating) as `Average Rating`, 
+	   avg(user_rating_ver) as `Current Average Rating`, 
+	   avg(sup_devices_num) as `Average SupportedDevice Number`, 
+	   avg(ipadsc_urls_num) as `Average Screenshots for Display`, 
+	   avg(lang_num) as `Average Supported Language Number` 
+  FROM a1g1;
+
+  
+--Genre "Business"
+
+SELECT avg(prime_genre),
+	   avg(size_bytes) AS `Average Size`, 
+	   avg(price) as `Average Price`, 
+	   avg(rating_count_tot) as `Average Rating Count`, 
+	   avg(rating_count_ver) as `Current Average Rating Count`, 
+	   avg(user_rating) as `Average Rating`, 
+	   avg(user_rating_ver) as `Current Average Rating`, 
+	   avg(sup_devices_num) as `Average SupportedDevice Number`, 
+	   avg(ipadsc_urls_num) as `Average Screenshots for Display`, 
+	   avg(lang_num) as `Average Supported Language Number` 
+  FROM a1g2;
+  
+--Genre "Catalogs"
+
+SELECT avg(prime_genre),
+	   avg(size_bytes) AS `Average Size`, 
+	   avg(price) as `Average Price`, 
+	   avg(rating_count_tot) as `Average Rating Count`, 
+	   avg(rating_count_ver) as `Current Average Rating Count`, 
+	   avg(user_rating) as `Average Rating`, 
+	   avg(user_rating_ver) as `Current Average Rating`, 
+	   avg(sup_devices_num) as `Average SupportedDevice Number`, 
+	   avg(ipadsc_urls_num) as `Average Screenshots for Display`, 
+	   avg(lang_num) as `Average Supported Language Number` 
+  FROM a1g3;
+  
+--Genre "Education"
+
+SELECT avg(prime_genre),
+	   avg(size_bytes) AS `Average Size`, 
+	   avg(price) as `Average Price`, 
+	   avg(rating_count_tot) as `Average Rating Count`, 
+	   avg(rating_count_ver) as `Current Average Rating Count`, 
+	   avg(user_rating) as `Average Rating`, 
+	   avg(user_rating_ver) as `Current Average Rating`, 
+	   avg(sup_devices_num) as `Average SupportedDevice Number`, 
+	   avg(ipadsc_urls_num) as `Average Screenshots for Display`, 
+	   avg(lang_num) as `Average Supported Language Number` 
+  FROM a1g4;
+  
+--Genre "Entertainment"
+
+SELECT avg(prime_genre),
+	   avg(size_bytes) AS `Average Size`, 
+	   avg(price) as `Average Price`, 
+	   avg(rating_count_tot) as `Average Rating Count`, 
+	   avg(rating_count_ver) as `Current Average Rating Count`, 
+	   avg(user_rating) as `Average Rating`, 
+	   avg(user_rating_ver) as `Current Average Rating`, 
+	   avg(sup_devices_num) as `Average SupportedDevice Number`, 
+	   avg(ipadsc_urls_num) as `Average Screenshots for Display`, 
+	   avg(lang_num) as `Average Supported Language Number` 
+  FROM a1g5;
+  
+--Genre "Finance"
+
+SELECT avg(prime_genre),
+	   avg(size_bytes) AS `Average Size`, 
+	   avg(price) as `Average Price`, 
+	   avg(rating_count_tot) as `Average Rating Count`, 
+	   avg(rating_count_ver) as `Current Average Rating Count`, 
+	   avg(user_rating) as `Average Rating`, 
+	   avg(user_rating_ver) as `Current Average Rating`, 
+	   avg(sup_devices_num) as `Average SupportedDevice Number`, 
+	   avg(ipadsc_urls_num) as `Average Screenshots for Display`, 
+	   avg(lang_num) as `Average Supported Language Number` 
+  FROM a1g6;
+  
+--Genre "Food & Drink"
+
+SELECT avg(prime_genre),
+	   avg(size_bytes) AS `Average Size`, 
+	   avg(price) as `Average Price`, 
+	   avg(rating_count_tot) as `Average Rating Count`, 
+	   avg(rating_count_ver) as `Current Average Rating Count`, 
+	   avg(user_rating) as `Average Rating`, 
+	   avg(user_rating_ver) as `Current Average Rating`, 
+	   avg(sup_devices_num) as `Average SupportedDevice Number`, 
+	   avg(ipadsc_urls_num) as `Average Screenshots for Display`, 
+	   avg(lang_num) as `Average Supported Language Number` 
+  FROM a1g7;
+  
+--Genre "Games"
+
+SELECT avg(prime_genre),
+	   avg(size_bytes) AS `Average Size`, 
+	   avg(price) as `Average Price`, 
+	   avg(rating_count_tot) as `Average Rating Count`, 
+	   avg(rating_count_ver) as `Current Average Rating Count`, 
+	   avg(user_rating) as `Average Rating`, 
+	   avg(user_rating_ver) as `Current Average Rating`, 
+	   avg(sup_devices_num) as `Average SupportedDevice Number`, 
+	   avg(ipadsc_urls_num) as `Average Screenshots for Display`, 
+	   avg(lang_num) as `Average Supported Language Number` 
+  FROM a1g8;
+
+--Genre "Health & Fitness"
+
+SELECT avg(prime_genre),
+	   avg(size_bytes) AS `Average Size`, 
+	   avg(price) as `Average Price`, 
+	   avg(rating_count_tot) as `Average Rating Count`, 
+	   avg(rating_count_ver) as `Current Average Rating Count`, 
+	   avg(user_rating) as `Average Rating`, 
+	   avg(user_rating_ver) as `Current Average Rating`, 
+	   avg(sup_devices_num) as `Average SupportedDevice Number`, 
+	   avg(ipadsc_urls_num) as `Average Screenshots for Display`, 
+	   avg(lang_num) as `Average Supported Language Number` 
+  FROM a1g9;
+  
+--Genre "Lifestyle"
+
+SELECT avg(prime_genre),
+	   avg(size_bytes) AS `Average Size`, 
+	   avg(price) as `Average Price`, 
+	   avg(rating_count_tot) as `Average Rating Count`, 
+	   avg(rating_count_ver) as `Current Average Rating Count`, 
+	   avg(user_rating) as `Average Rating`, 
+	   avg(user_rating_ver) as `Current Average Rating`, 
+	   avg(sup_devices_num) as `Average SupportedDevice Number`, 
+	   avg(ipadsc_urls_num) as `Average Screenshots for Display`, 
+	   avg(lang_num) as `Average Supported Language Number` 
+  FROM a1g10;
+  
+--Genre "Medical"
+
+SELECT avg(prime_genre),
+	   avg(size_bytes) AS `Average Size`, 
+	   avg(price) as `Average Price`, 
+	   avg(rating_count_tot) as `Average Rating Count`, 
+	   avg(rating_count_ver) as `Current Average Rating Count`, 
+	   avg(user_rating) as `Average Rating`, 
+	   avg(user_rating_ver) as `Current Average Rating`, 
+	   avg(sup_devices_num) as `Average SupportedDevice Number`, 
+	   avg(ipadsc_urls_num) as `Average Screenshots for Display`, 
+	   avg(lang_num) as `Average Supported Language Number` 
+  FROM a1g11;
+  
+--Genre "Music"
+
+SELECT avg(prime_genre),
+	   avg(size_bytes) AS `Average Size`, 
+	   avg(price) as `Average Price`, 
+	   avg(rating_count_tot) as `Average Rating Count`, 
+	   avg(rating_count_ver) as `Current Average Rating Count`, 
+	   avg(user_rating) as `Average Rating`, 
+	   avg(user_rating_ver) as `Current Average Rating`, 
+	   avg(sup_devices_num) as `Average SupportedDevice Number`, 
+	   avg(ipadsc_urls_num) as `Average Screenshots for Display`, 
+	   avg(lang_num) as `Average Supported Language Number` 
+  FROM a1g12;
+  
+--Genre "Navigation"
+
+SELECT avg(prime_genre),
+	   avg(size_bytes) AS `Average Size`, 
+	   avg(price) as `Average Price`, 
+	   avg(rating_count_tot) as `Average Rating Count`, 
+	   avg(rating_count_ver) as `Current Average Rating Count`, 
+	   avg(user_rating) as `Average Rating`, 
+	   avg(user_rating_ver) as `Current Average Rating`, 
+	   avg(sup_devices_num) as `Average SupportedDevice Number`, 
+	   avg(ipadsc_urls_num) as `Average Screenshots for Display`, 
+	   avg(lang_num) as `Average Supported Language Number` 
+  FROM a1g13;
+  
+--Genre "News"
+
+SELECT avg(prime_genre),
+	   avg(size_bytes) AS `Average Size`, 
+	   avg(price) as `Average Price`, 
+	   avg(rating_count_tot) as `Average Rating Count`, 
+	   avg(rating_count_ver) as `Current Average Rating Count`, 
+	   avg(user_rating) as `Average Rating`, 
+	   avg(user_rating_ver) as `Current Average Rating`, 
+	   avg(sup_devices_num) as `Average SupportedDevice Number`, 
+	   avg(ipadsc_urls_num) as `Average Screenshots for Display`, 
+	   avg(lang_num) as `Average Supported Language Number` 
+  FROM a1g14;
+  
+--Genre "Photo & Video"
+
+SELECT avg(prime_genre),
+	   avg(size_bytes) AS `Average Size`, 
+	   avg(price) as `Average Price`, 
+	   avg(rating_count_tot) as `Average Rating Count`, 
+	   avg(rating_count_ver) as `Current Average Rating Count`, 
+	   avg(user_rating) as `Average Rating`, 
+	   avg(user_rating_ver) as `Current Average Rating`, 
+	   avg(sup_devices_num) as `Average SupportedDevice Number`, 
+	   avg(ipadsc_urls_num) as `Average Screenshots for Display`, 
+	   avg(lang_num) as `Average Supported Language Number` 
+  FROM a1g15;
+  
+--Genre "Productivity"
+
+SELECT avg(prime_genre),
+	   avg(size_bytes) AS `Average Size`, 
+	   avg(price) as `Average Price`, 
+	   avg(rating_count_tot) as `Average Rating Count`, 
+	   avg(rating_count_ver) as `Current Average Rating Count`, 
+	   avg(user_rating) as `Average Rating`, 
+	   avg(user_rating_ver) as `Current Average Rating`, 
+	   avg(sup_devices_num) as `Average SupportedDevice Number`, 
+	   avg(ipadsc_urls_num) as `Average Screenshots for Display`, 
+	   avg(lang_num) as `Average Supported Language Number` 
+  FROM a1g16;
+  
+--Genre "Reference"
+
+SELECT avg(prime_genre),
+	   avg(size_bytes) AS `Average Size`, 
+	   avg(price) as `Average Price`, 
+	   avg(rating_count_tot) as `Average Rating Count`, 
+	   avg(rating_count_ver) as `Current Average Rating Count`, 
+	   avg(user_rating) as `Average Rating`, 
+	   avg(user_rating_ver) as `Current Average Rating`, 
+	   avg(sup_devices_num) as `Average SupportedDevice Number`, 
+	   avg(ipadsc_urls_num) as `Average Screenshots for Display`, 
+	   avg(lang_num) as `Average Supported Language Number` 
+  FROM a1g17;
+  
+--Genre "Shopping"
+
+SELECT avg(prime_genre),
+	   avg(size_bytes) AS `Average Size`, 
+	   avg(price) as `Average Price`, 
+	   avg(rating_count_tot) as `Average Rating Count`, 
+	   avg(rating_count_ver) as `Current Average Rating Count`, 
+	   avg(user_rating) as `Average Rating`, 
+	   avg(user_rating_ver) as `Current Average Rating`, 
+	   avg(sup_devices_num) as `Average SupportedDevice Number`, 
+	   avg(ipadsc_urls_num) as `Average Screenshots for Display`, 
+	   avg(lang_num) as `Average Supported Language Number` 
+  FROM a1g18;
+  
+--Genre "Social Networking"
+
+SELECT avg(prime_genre),
+	   avg(size_bytes) AS `Average Size`, 
+	   avg(price) as `Average Price`, 
+	   avg(rating_count_tot) as `Average Rating Count`, 
+	   avg(rating_count_ver) as `Current Average Rating Count`, 
+	   avg(user_rating) as `Average Rating`, 
+	   avg(user_rating_ver) as `Current Average Rating`, 
+	   avg(sup_devices_num) as `Average SupportedDevice Number`, 
+	   avg(ipadsc_urls_num) as `Average Screenshots for Display`, 
+	   avg(lang_num) as `Average Supported Language Number` 
+  FROM a1g19;
+  
+--Genre "Sports"
+
+SELECT avg(prime_genre),
+	   avg(size_bytes) AS `Average Size`, 
+	   avg(price) as `Average Price`, 
+	   avg(rating_count_tot) as `Average Rating Count`, 
+	   avg(rating_count_ver) as `Current Average Rating Count`, 
+	   avg(user_rating) as `Average Rating`, 
+	   avg(user_rating_ver) as `Current Average Rating`, 
+	   avg(sup_devices_num) as `Average SupportedDevice Number`, 
+	   avg(ipadsc_urls_num) as `Average Screenshots for Display`, 
+	   avg(lang_num) as `Average Supported Language Number` 
+  FROM a1g20;
+  
+--Genre "Travel"
+
+SELECT avg(prime_genre),
+	   avg(size_bytes) AS `Average Size`, 
+	   avg(price) as `Average Price`, 
+	   avg(rating_count_tot) as `Average Rating Count`, 
+	   avg(rating_count_ver) as `Current Average Rating Count`, 
+	   avg(user_rating) as `Average Rating`, 
+	   avg(user_rating_ver) as `Current Average Rating`, 
+	   avg(sup_devices_num) as `Average SupportedDevice Number`, 
+	   avg(ipadsc_urls_num) as `Average Screenshots for Display`, 
+	   avg(lang_num) as `Average Supported Language Number` 
+  FROM a1g21;
+  
+--Genre "Utilities"
+
+SELECT avg(prime_genre),
+	   avg(size_bytes) AS `Average Size`, 
+	   avg(price) as `Average Price`, 
+	   avg(rating_count_tot) as `Average Rating Count`, 
+	   avg(rating_count_ver) as `Current Average Rating Count`, 
+	   avg(user_rating) as `Average Rating`, 
+	   avg(user_rating_ver) as `Current Average Rating`, 
+	   avg(sup_devices_num) as `Average SupportedDevice Number`, 
+	   avg(ipadsc_urls_num) as `Average Screenshots for Display`, 
+	   avg(lang_num) as `Average Supported Language Number` 
+  FROM a1g22;
+  
+--Genre "Weather"
+
+SELECT avg(prime_genre),
+	   avg(size_bytes) AS `Average Size`, 
+	   avg(price) as `Average Price`, 
+	   avg(rating_count_tot) as `Average Rating Count`, 
+	   avg(rating_count_ver) as `Current Average Rating Count`, 
+	   avg(user_rating) as `Average Rating`, 
+	   avg(user_rating_ver) as `Current Average Rating`, 
+	   avg(sup_devices_num) as `Average SupportedDevice Number`, 
+	   avg(ipadsc_urls_num) as `Average Screenshots for Display`, 
+	   avg(lang_num) as `Average Supported Language Number` 
+  FROM a1g23;
